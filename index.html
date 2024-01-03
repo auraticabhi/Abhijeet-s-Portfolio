@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/userAsset/icons8-fire.png" type="image/x-icon">
+    <title>Abhijeet's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo-container">
+                    <img src="./images/userAsset/NavLogo.jpg" class="logo">
+                    <div class="logo-text">bhijeet Gupta</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                    <a href="https://drive.google.com/file/d/1fUotq3f5VbmidHpQ_wZue06uX3-aCWzF/view" target="_blank">
+                        <div class="buttoncv">
+                            <div class="textcv">
+                                Download CV
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+
+                <div class="faded-text">Abhijeet Gupta</div>
+
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hey! Myself Abhijeet</div>
+
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+                        I’m a Full Stack Developer proficient in MERN Stack, I have built many full stack applications using MERN and other trending technologies. I'm also proficient in JAVA, with a strong foundation in Data Structures and Algorithms.
+                    </div>
+
+                    <button class="btn-pink" id="btn" onclick="openModal()">Connect with Me</button>
+
+                </div>
+
+                <div class="modal">
+                    <div class="modal-header">
+                        <h1>Connect with Me</h1>
+                        <div>
+                            <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+                        </div>
+                    </div>
+
+
+                    <div>
+
+                        <h3>Connect via...</h3>
+
+
+                        <div class="icon-container">
+                            <a href="http://www.linkedin.com/in/abhijeet-gupta-0074a922b" class="icon" target="_blank" id="linkedin">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="http://github.com/auraticabhi" target="_blank" class="icon" id="github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://instagram.com/auratic_abhi" target="_blank" class="icon" id="instagram">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/AuraticAbhi" target="_blank" class="icon" id="twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="mailto:abhijeetgupta989@gmail.com" class="icon" target="_blank" id="emaill">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Overlay -->
+                <div class="overlay" onclick="closeModal()"></div>
+
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./images/userAsset/dots.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="" />
+                    </div>
+                    <div class="user-image">
+                        <img src="./images/userAsset/UserImage.jpeg" alt="" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/React.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Github.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+
+                        <h2 class="project-heading">StudyNotion</h2>
+
+                        <p class="project-subHeading">An Ed-Tech Platform built using MERN Stack...
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project"><a href="https://github.com/auraticabhi/StudyNotion-mernapp/blob/main/README.md" target="_blank" >Read More</a></button>
+                            <a href="https://github.com/auraticabhi/StudyNotion-mernapp" target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://study-notion-abhixcodes.vercel.app/" target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/React.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/MaterialUI.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Github.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+                        <h2 class="project-heading">SnapLink - A Social Media Platform</h2>
+                        <p class="project-sub-heading">
+                            A Full-Fledged Social Media Platform built using MERN Stack.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"><a href="https://github.com/auraticabhi/SnapLink/blob/main/README.md" target="_blank">Read More</a></button>
+                            <a href="https://github.com/auraticabhi/SnapLink" target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://snaplink-abhixcodes.vercel.app/" target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/openweather.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Github.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+
+                        <h2 class="project-heading">Weather App</h2>
+                        <p class="project-sub-heading">
+                            A simple web app which helps users to gather information about the weather built using Javascript, HTML & CSS.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"><a href="https://github.com/auraticabhi/WeatherApp/blob/main/README.md">Read More</a></button>
+                            <a href="https://github.com/auraticabhi/WeatherApp">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://weather-app-abhixcodes.vercel.app/">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Github.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+                        <h2 class="project-heading">Password Generator</h2>
+                        <p class="project-sub-heading">
+                            A user-friendly web app to generate random passwords.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"><a href="https://github.com/auraticabhi/PasswordGenerator/blob/main/README.md">Read More</a></button>
+                            <a href="https://github.com/auraticabhi/PasswordGenerator">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://password-generator-abhixcodes.vercel.app/">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prjkt">
+                    <a href="https://github.com/auraticabhi?tab=repositories" target="_blank">
+                        <div class="buttongit">
+                            <div class="textgit">
+                                Explore More Projects :-
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="skills" class="container skills-container ">
+            <div class="skill-fade-text">Skills</div>
+
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                    <br /> MyTech Stack
+                </h2>
+
+                <div class="skill-subHeading">
+                    <p>
+                        I'm a passionate full-stack developer well-versed in the MERN (MongoDB, Express.js, React.js, Node.js) stack, crafting dynamic and responsive applications that bring ideas to life. With a rich portfolio spanning various industries, I thrive on implementing
+                        cutting-edge technologies and leveraging my proficiency in Java alongside a robust understanding of data structures and algorithms.
+                    </p>
+                    <p>
+                        My journey involves architecting seamless user experiences, utilizing the latest tech trends while ensuring scalable and efficient solutions. From conceptualization to deployment, I take pride in delivering high-quality, innovative software solutions
+                        that resonate with users and make a meaningful impact. Let's build something extraordinary together!"
+                    </p>
+                    <p>
+                        My Tech Stack: ReactJS, Redux, NodeJs, ExpressJS, MongoDB, Mongoose, REST APIs Javascript, Tailwind CSS, Bootstrap, HTML, CSS, JAVA, C++, C, Git/Github.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+                <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+                <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/React.png" alt="" class="skills-logo" />
+                <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+                <img src="./images/stack/mongoose5.png" alt="" class="skills-logo" />
+                <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Java.png" alt="" class="skills-logo" />
+                <img src="./images/stack/cplus.png" alt="" class="skills-logo" />
+                <img src="./images/stack/c.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+            </div>
+
+
+
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+            <div class="container">
+
+                <h1 class="contactus-heading">Contact me</h1>
+
+                <h3 class="contactus-sub-heading">
+                    Questions, thoughts, or just want to say hello?
+                </h3>
+
+
+                <div class="contactus-form-container">
+                    <form class="form" id="contact-form">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="from_name" id="" placeholder="Enter your name" />
+
+                            <input class="formfield" type="email" name="from_email" id="" placeholder="Enter your email address" />
+
+                            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject" />
+
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter your message"></textarea>
+
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                            Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div id="loader" class="loader"></div>
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+
+
+                    <div>
+                        <div class="link-wrapper">
+                            <div>
+                                <a href="#projects">Projects</a>
+                            </div>
+                            <div>
+                                <a href="#skills">Skills</a>
+                            </div>
+                            <div>
+                                <a href="#contactme">Contact Me</a>
+                            </div>
+                        </div>
+                        <div class="c">
+                            © Abhijeet Gupta. All rights reserved
+                        </div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <a href="http://www.linkedin.com/in/abhijeet-gupta-0074a922b" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="http://github.com/auraticabhi" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                        <a href="http://twitter.com/AuraticAbhi" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+                        <a href="http://instagram.com/auratic_abhi" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+                        <a href="mailto:abhijeetgupta989@gmail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+    <!-- Response -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init('ldtd_IdJeAYlkNZ_o');
+        })();
+    </script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('loader').style.display = 'block';
+            emailjs.sendForm('service_5g4id5h', 'template_ayfwxvt', this)
+                .then(function(response) {
+                    console.log('Email sent!', response.status, response.text);
+                    document.getElementById('loader').style.display = 'none';
+                    alert('Response sent sucessfully!');
+                }, function(error) {
+                    console.error('Email failed to send!', error);
+                    document.getElementById('loader').style.display = 'none';
+                    alert('Failed to send response');
+                });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Software Engineer",
+                "MERN Stack Developer",
+                "UI-UX Designer",
+                "Web Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+
+</html>
